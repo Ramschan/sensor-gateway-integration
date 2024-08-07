@@ -1,0 +1,16 @@
+server:
+  port: 8082
+  servlet:
+    context-path: /api/v1
+
+  compression:
+    enabled: true
+    mime-types: application/json,application/xml,text/html,text/xml,text/plain,application/javascript,text/css
+    min-response-size: 1024
+
+spring.data.neo4j.uri:
+  bolt://localhost:7687
+spring.data.neo4j.username:
+  neo4j
+spring.data.neo4j.password:
+  ram

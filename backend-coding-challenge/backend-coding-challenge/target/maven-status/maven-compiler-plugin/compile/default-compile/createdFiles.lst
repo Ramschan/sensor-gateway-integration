@@ -1,0 +1,3 @@
+com\energybox\backendcodingchallenge\domain\LastReading.class
+com\energybox\backendcodingchallenge\exception\SensorTypeNotFoundException.class
+com\energybox\backendcodingchallenge\model\ReadingRequest.class
